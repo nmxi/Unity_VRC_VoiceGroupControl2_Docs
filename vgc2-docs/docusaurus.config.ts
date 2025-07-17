@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'VoiceGroupControl2',
+  title: 'Voice Group Control 2',
   tagline: 'VRChat用音声グループ制御システム',
   favicon: 'img/favicon.ico',
 
@@ -110,7 +110,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} VoiceGroupControl2. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Voice Group Control 2. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

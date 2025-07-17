@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## VGC2とは
 
-VoiceGroupControl2は、VRChatワールドでプレイヤーの音声を細かく制御するためのシステムです。
+Voice Group Control 2は、VRChatワールドでプレイヤーの音声を細かく制御するためのシステムです。
 
 ### 使用例
 

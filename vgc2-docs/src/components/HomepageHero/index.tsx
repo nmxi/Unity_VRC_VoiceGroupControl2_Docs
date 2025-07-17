@@ -11,8 +11,8 @@ export default function HomepageHero(): JSX.Element {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className={styles.heroTitle}>
-          <span className={styles.heroTitleMain}>VoiceGroupControl2</span>
-          <span className={styles.heroTitleSub}>for VRChat</span>
+          <span className={styles.heroTitleMain}>Voice Group Control 2</span>
+          <span className={styles.heroTitleSub}>VRChat Udon Gimmick</span>
         </h1>
         <p className={styles.heroSubtitle}>
           VRChatワールドの音声体験を次のレベルへ

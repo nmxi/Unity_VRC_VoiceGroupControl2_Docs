@@ -74,7 +74,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title} - VRChat用音声グループ制御システム`}
-      description="VoiceGroupControl2は、VRChatワールドで使用できる高度な音声制御システムです。プレイヤーをグループに分けて音声を管理し、大規模イベントからロールプレイまで対応します。">
+      description="Voice Group Control 2は、VRChatワールドで使用できる高度な音声制御システムです。プレイヤーをグループに分けて音声を管理し、大規模イベントからロールプレイまで対応します。">
       <HomepageHero />
       <main>
         <Features />
