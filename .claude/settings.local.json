@@ -24,7 +24,9 @@
       "mcp__linear-server__get_project",
       "Bash(git checkout:*)",
       "mcp__linear-server__create_comment",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(ls:*)",
+      "mcp__puppeteer__puppeteer_click"
     ],
     "deny": []
   }

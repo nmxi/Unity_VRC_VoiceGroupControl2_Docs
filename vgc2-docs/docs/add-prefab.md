@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import ClickableImage from '@site/src/components/ClickableImage';
+
 # Prefabの追加
 
 VoiceGroupControl2をプロジェクトに導入する最初のステップは、Prefabの追加です。
@@ -14,13 +16,15 @@ VGC2のメインPrefabは以下の場所にあります：
 Assets/mikinel/VoiceGroupControl2/VoiceGroupControl2.prefab
 ```
 
-![VoiceGroupControl2フォルダ内のPrefabの場所](/img/add-prefab--project-folder-view.png)
+<ClickableImage src="/img/add-prefab--project-folder-view.png" alt="VoiceGroupControl2フォルダ内のPrefabの場所" />
 
 ## Prefabをシーンに追加
 
-`VoiceGroupControl2.prefab`をシーンに配置します
+`VoiceGroupControl2.prefab`をシーンに配置します。
 
-![PrefabをHierarchyにドラッグ&ドロップ](/img/add-prefab--scene-placement.png)
+配置したPrefabにはVGCManagerコンポーネントがあります。
+
+<ClickableImage src="/img/add-prefab--scene-placement.png" alt="PrefabをHierarchyにドラッグ&ドロップ" />
 
 :::caution 注意
 - VoiceGroupControl2.prefabはシーンに1つだけ配置してください。2つ以上配置すると正常に動作しません。

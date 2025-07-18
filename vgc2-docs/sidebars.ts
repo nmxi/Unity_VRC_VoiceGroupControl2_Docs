@@ -19,12 +19,19 @@ const sidebars: SidebarsConfig = {
     'quick-installation',
     {
       type: 'category',
-      label: '導入手順',
+      label: '🟢 基本機能導入手順',
       collapsed: false,
       items: [
         'getting-started',
         'add-prefab',
-        'basic-setup',
+        'add-vgcgrouparea',
+      ],
+    },
+    {
+      type: 'category',
+      label: '🟠 応用機能導入手順',
+      collapsed: false,
+      items: [
         'microphone-setup',
         'transceiver-setup',
         'save-load-setup',

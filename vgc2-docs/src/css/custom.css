@@ -45,7 +45,7 @@
 
 /* Images in markdown */
 .markdown img {
-  max-width: 70%;
+  max-width: 60%;
   height: auto;
   display: block;
   margin: 1rem auto;
@@ -53,7 +53,7 @@
 
 /* Specific adjustments for documentation images */
 article img {
-  max-width: min(70%, 100%);
+  max-width: min(60%, 100%);
   height: auto;
   display: block;
   margin: 1rem auto;
