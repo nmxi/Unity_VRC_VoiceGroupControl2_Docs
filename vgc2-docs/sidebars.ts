@@ -16,13 +16,14 @@ const sidebars: SidebarsConfig = {
   // Manually define the sidebar structure
   tutorialSidebar: [
     'intro',
+    'quick-installation',
     {
       type: 'category',
       label: '導入手順',
       collapsed: false,
       items: [
         'getting-started',
-        'quick-installation',
+        'add-prefab',
         'basic-setup',
         'microphone-setup',
         'transceiver-setup',

@@ -22,11 +22,6 @@ VGC2 を使い始めるための手順を説明します。
 4. インポートダイアログですべてのファイルにチェックが入っていることを確認
 5. **Import** ボタンをクリック
 
-### 3. プロジェクトへの導入
-
-1. インポート完了後、`Assets/mikinel/VoiceGroupControl2` フォルダを開く
-2. `VoiceGroupControl2.prefab` をシーンに追加(ドラッグ&ドロップ)
-
 ## 次のステップ
 
-- [クイックインストール](/docs/quick-installation) - より詳細なインストール手順
+インポートが完了したら、次は[Prefabの追加](/docs/add-prefab)へ進んでください。
