@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
         'basic-setup',
         'microphone-setup',
         'transceiver-setup',
+        'save-load-setup',
       ],
     },
   ],
