@@ -29,6 +29,7 @@ const sidebars: SidebarsConfig = {
         'save-load-setup',
         'settings-panels',
         'configuration-reference',
+        'troubleshooting',
       ],
     },
   ],
