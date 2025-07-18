@@ -12,7 +12,7 @@ export default function HomepageHero(): JSX.Element {
       <div className="container">
         <h1 className={styles.heroTitle}>
           <div className={styles.heroTitleWrapper}>
-            <span className={styles.heroTitleSub}>VRChat Udon Gimmick</span>
+            <span className={styles.heroTitleSub}>VRChat Udon Sharp Gimmick</span>
             <div className={styles.heroTitleMainWrapper}>
               <img src="/Unity_VRC_VoiceGroupControl2_Docs/img/vgc2-logo.png" alt="VGC2 Logo" className={styles.heroLogo} />
               <span className={styles.heroTitleMain}>Voice Group Control 2</span>
