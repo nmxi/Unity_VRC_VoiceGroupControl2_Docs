@@ -30,5 +30,3 @@ VGC2 を使い始めるための手順を説明します。
 ## 次のステップ
 
 - [クイックインストール](/docs/quick-installation) - より詳細なインストール手順
-- [基本的な使い方](/docs/basic-usage) - VGC2の基本操作
-- [高度な設定](/docs/advanced) - カスタマイズ方法
