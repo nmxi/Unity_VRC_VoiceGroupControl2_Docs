@@ -30,6 +30,7 @@ const sidebars: SidebarsConfig = {
         'settings-panels',
         'configuration-reference',
         'troubleshooting',
+        'best-practices',
       ],
     },
   ],
