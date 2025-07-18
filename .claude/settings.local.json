@@ -23,7 +23,8 @@
       "Bash(mv:*)",
       "mcp__linear-server__get_project",
       "Bash(git checkout:*)",
-      "mcp__linear-server__create_comment"
+      "mcp__linear-server__create_comment",
+      "Bash(taskkill:*)"
     ],
     "deny": []
   }
