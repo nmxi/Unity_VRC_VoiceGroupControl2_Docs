@@ -28,6 +28,7 @@ const sidebars: SidebarsConfig = {
         'transceiver-setup',
         'save-load-setup',
         'settings-panels',
+        'configuration-reference',
       ],
     },
   ],
