@@ -25,6 +25,7 @@ const sidebars: SidebarsConfig = {
         'quick-installation',
         'basic-setup',
         'microphone-setup',
+        'transceiver-setup',
       ],
     },
   ],
