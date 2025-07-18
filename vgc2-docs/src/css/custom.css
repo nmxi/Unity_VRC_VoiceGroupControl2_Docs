@@ -35,6 +35,19 @@
   margin-right: 0.5rem;
 }
 
+/* Japanese text wrapping and line break rules */
+html {
+  word-break: auto-phrase;
+  overflow-wrap: break-word;
+  line-break: strict;
+}
+
+p, li, td, th {
+  word-break: auto-phrase;
+  overflow-wrap: break-word;
+  line-break: strict;
+}
+
 /* Footer styling */
 .footer {
   background-color: #a05a2c;
