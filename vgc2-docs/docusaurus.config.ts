@@ -44,10 +44,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/nmxi/Unity_VRC_VoiceGroupControl2_Docs/tree/main/',
         },
         blog: false, // ブログ機能を無効化
         theme: {
@@ -87,12 +83,12 @@ const config: Config = {
           title: 'ドキュメント',
           items: [
             {
-              label: 'ドキュメントトップ',
+              label: 'Voice Group Control 2について',
               to: '/docs/intro',
             },
             {
               label: 'クイックインストール',
-              to: '/docs/installation',
+              to: '/docs/quick-installation',
             },
           ],
         },

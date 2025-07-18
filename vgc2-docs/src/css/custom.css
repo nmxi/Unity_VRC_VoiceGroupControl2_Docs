@@ -52,15 +52,22 @@ p, li, td, th {
 .footer {
   background-color: #a05a2c;
   color: #fff;
+  padding: 1.33rem 0;
 }
 
 .footer--dark {
   background-color: #804a23;
 }
 
+.footer__links {
+  margin-bottom: 0.67rem;
+}
+
 .footer__link-item {
   color: #fff;
   opacity: 0.9;
+  font-size: 0.9rem;
+  line-height: 1.4;
 }
 
 .footer__link-item:hover {
@@ -72,11 +79,16 @@ p, li, td, th {
 .footer__title {
   color: #fff;
   font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.33rem;
 }
 
 .footer__copyright {
   color: #fff;
   opacity: 0.8;
+  margin-top: 0.67rem;
+  margin-bottom: 0;
+  font-size: 0.85rem;
 }
 
 .footer__copyright a {

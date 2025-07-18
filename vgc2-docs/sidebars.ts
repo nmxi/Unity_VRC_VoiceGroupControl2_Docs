@@ -18,10 +18,11 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: '導入',
+      label: '導入手順',
+      collapsed: false,
       items: [
         'getting-started',
-        'installation',
+        'quick-installation',
       ],
     },
   ],
