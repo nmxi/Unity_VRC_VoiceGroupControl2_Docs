@@ -60,6 +60,11 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'VGC2',
       logo: {
@@ -72,11 +77,6 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'ドキュメント',
-        },
-        {
-          href: 'https://github.com/nmxi/Unity_VRC_VoiceGroupControl2',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },

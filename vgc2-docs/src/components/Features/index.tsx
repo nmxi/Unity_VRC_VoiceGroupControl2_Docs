@@ -19,7 +19,8 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         エリアごとに音声を分離。
-        別エリアの音声を動的に音量調整またはミュートします。
+        <br />
+        音声を動的に調整、ミュート。
       </>
     ),
   },
@@ -31,8 +32,9 @@ const FeatureList: FeatureItem[] = [
     ),
     description: (
       <>
-        3つのモードで音声を拡声。
-        イベント司会や案内放送に最適です。
+        マイクのモードは3種類。
+        <br />
+        イベント司会や案内に最適。
       </>
     ),
   },
@@ -44,21 +46,23 @@ const FeatureList: FeatureItem[] = [
     ),
     description: (
       <>
-        12チャンネルで遠隔通話。
-        離れた仲間と瞬時に連絡が取れます。
+        ワールド内通話可能。
+        <br />
+        スタッフ間の連絡に最適。
       </>
     ),
   },
   {
-    title: '設定の永続化',
+    title: 'セーブ・ロード機能',
     backgroundImage: '/Unity_VRC_VoiceGroupControl2_Docs/img/preset_sample.png',
     icon: (
-      <img src="/Unity_VRC_VoiceGroupControl2_Docs/img/save.svg" alt="設定の永続化" className={styles.featureIcon} />
+      <img src="/Unity_VRC_VoiceGroupControl2_Docs/img/save.svg" alt="セーブ・ロード機能" className={styles.featureIcon} />
     ),
     description: (
       <>
-        設定をプリセット保存。
-        再入場しても設定が保持されます。
+        設定をセーブ・ロードする機能。
+        <br />
+        文字列での入出力も可能。
       </>
     ),
   },
