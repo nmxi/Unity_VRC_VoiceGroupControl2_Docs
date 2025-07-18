@@ -24,6 +24,7 @@ const sidebars: SidebarsConfig = {
         'getting-started',
         'quick-installation',
         'basic-setup',
+        'microphone-setup',
       ],
     },
   ],
