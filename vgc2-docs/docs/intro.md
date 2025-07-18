@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+sidebar_label: ドキュメントトップ
 ---
 
-# Voice Group Control 2 へようこそ
+# ドキュメントトップ
 
 Voice Group Control 2（VGC2）は、VRChatワールドで使用できる高度な音声制御システムです。
 

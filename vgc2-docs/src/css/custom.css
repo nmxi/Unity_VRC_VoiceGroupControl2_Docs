@@ -6,25 +6,72 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #FFBE61;
+  --ifm-color-primary-dark: #FFB142;
+  --ifm-color-primary-darker: #FFA833;
+  --ifm-color-primary-darkest: #FF9614;
+  --ifm-color-primary-light: #FFCB80;
+  --ifm-color-primary-lighter: #FFD28F;
+  --ifm-color-primary-lightest: #FFE0AD;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #FFB142;
+  --ifm-color-primary-dark: #FFA833;
+  --ifm-color-primary-darker: #FF9E24;
+  --ifm-color-primary-darkest: #FF8F05;
+  --ifm-color-primary-light: #FFBE61;
+  --ifm-color-primary-lighter: #FFC570;
+  --ifm-color-primary-lightest: #FFD28F;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar logo adjustments */
+.navbar__logo {
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #a05a2c;
+  color: #fff;
+}
+
+.footer--dark {
+  background-color: #804a23;
+}
+
+.footer__link-item {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.footer__link-item:hover {
+  color: #fff;
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footer__title {
+  color: #fff;
+  font-weight: 600;
+}
+
+.footer__copyright {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.footer__copyright a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer__copyright a:hover {
+  color: #fff;
+  opacity: 0.9;
 }

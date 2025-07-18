@@ -64,7 +64,7 @@ const config: Config = {
       title: 'VGC2',
       logo: {
         alt: 'VGC2 Logo',
-        src: 'img/logo.svg',
+        src: 'img/vgc2-logo.png',
       },
       items: [
         {
@@ -87,11 +87,11 @@ const config: Config = {
           title: 'ドキュメント',
           items: [
             {
-              label: 'はじめに',
+              label: 'ドキュメントトップ',
               to: '/docs/intro',
             },
             {
-              label: 'インストール',
+              label: 'クイックインストール',
               to: '/docs/installation',
             },
           ],
@@ -100,17 +100,13 @@ const config: Config = {
           title: 'リンク',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/nmxi/Unity_VRC_VoiceGroupControl2',
-            },
-            {
-              label: 'VRChat',
-              href: 'https://vrchat.com',
+              label: 'Booth',
+              href: 'https://nmxi.booth.pm/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Voice Group Control 2. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://x.com/kemmimilk" target="_blank" rel="noopener noreferrer">mikinel</a>. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

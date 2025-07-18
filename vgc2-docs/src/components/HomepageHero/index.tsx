@@ -8,29 +8,25 @@ export default function HomepageHero(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <h1 className={styles.heroTitle}>
-          <span className={styles.heroTitleMain}>Voice Group Control 2</span>
-          <span className={styles.heroTitleSub}>VRChat Udon Gimmick</span>
+          <div className={styles.heroTitleWrapper}>
+            <div className={styles.heroTitleMainWrapper}>
+              <img src="/Unity_VRC_VoiceGroupControl2_Docs/img/vgc2-logo.png" alt="VGC2 Logo" className={styles.heroLogo} />
+              <span className={styles.heroTitleMain}>Voice Group Control 2</span>
+            </div>
+            <span className={styles.heroTitleSub}>VRChat Udon Gimmick</span>
+          </div>
         </h1>
-        <p className={styles.heroSubtitle}>
-          VRChatワールドの音声体験を次のレベルへ
-        </p>
         <p className={styles.heroDescription}>
-          プレイヤーをグループに分けて音声を制御。<br/>
-          大規模イベントからロールプレイまで、あらゆるワールドに対応する高度な音声管理システム。
+          あらゆるワールドに対応する高度な音声管理システム。
         </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className={clsx('button button--primary button--lg', styles.heroButton)}
             to="/docs/intro">
             ドキュメントを見る
-          </Link>
-          <Link
-            className="button button--primary button--lg"
-            to="/docs/installation">
-            今すぐ始める
           </Link>
         </div>
       </div>
