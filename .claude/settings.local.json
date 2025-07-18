@@ -21,7 +21,9 @@
       "mcp__puppeteer__puppeteer_screenshot",
       "mcp__puppeteer__puppeteer_evaluate",
       "Bash(mv:*)",
-      "mcp__linear-server__get_project"
+      "mcp__linear-server__get_project",
+      "Bash(git checkout:*)",
+      "mcp__linear-server__create_comment"
     ],
     "deny": []
   }
