@@ -19,8 +19,6 @@ VGCManagerコンポーネントのエディタ上に表示されている"VGCGro
 
 <ClickableImage src="/img/add-vgcgrouparea--add-button.png" alt="VGCManagerのVGCGroupAreaを追加ボタン" />
 
-<ClickableImage src="/img/add-vgcgrouparea--additional-image.png" alt="VGCGroupAreaの追加" />
-
 シーンにVGCGroupAreaが追加された状態
 
 <ClickableImage src="/img/add-vgcgrouparea--scene-with-area.png" alt="シーンにVGCGroupAreaが追加された状態" />
