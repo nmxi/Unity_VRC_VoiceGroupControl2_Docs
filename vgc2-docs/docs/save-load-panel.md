@@ -50,7 +50,7 @@ VGC2のセーブ・ロードパネルを使用すると、グループ間の音�
 設定をJSON形式で出力し、外部に保存できます。
 
 :::tip ヒント
-ここで取得したJSON形式の文字列を用いて、UnityEditorに設定値を適用することが可能です。詳しくは[UnityEditorへの設定適用](/docs/unity-editor-settings)をご覧ください。
+ここで取得したJSON形式の文字列を用いて、UnityEditorに設定値を適用することが可能です。詳しくは[Json Loaderについて](/docs/volume-settings-and-upload)をご覧ください。
 :::
 
 <ClickableImage src="/img/save-load-panel--export-json.png" alt="JSONエクスポート" />
