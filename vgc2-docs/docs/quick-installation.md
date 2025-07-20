@@ -49,7 +49,3 @@ GroupAreaの配置が完了すると、以下のような状態になります�
 <ClickableImage src="/img/add-vgcgrouparea--hero-image.png" alt="GroupAreaの配置完了" />
 
 ### 5. ワールドのアップロード
-
-1. VRChat SDK Control Panelを開く
-2. 「Build & Publish for Windows」をクリック
-3. ワールド情報を入力してアップロード
