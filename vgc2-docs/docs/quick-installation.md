@@ -48,30 +48,8 @@ GroupAreaの配置が完了すると、以下のような状態になります�
 
 <ClickableImage src="/img/add-vgcgrouparea--hero-image.png" alt="GroupAreaの配置完了" />
 
-### 5. 動作確認
+### 5. ワールドのアップロード
 
 1. VRChat SDK Control Panelを開く
-2. 「Build & Test」でローカルテスト
-3. 異なるGroupAreaに移動して音声分離を確認
-
-## 最小構成例
-
-最もシンプルな2部屋構成の例：
-
-- **GroupArea 1**: Group ID = 1、Group Name = "Room A"
-- **GroupArea 2**: Group ID = 2、Group Name = "Room B"
-
-これだけで基本的な音声分離が機能します。
-
-## 次のステップ
-
-クイックインストールが完了したら：
-
-- より詳細な設定は[🟢 基本機能導入手順](/docs/getting-started)を参照
-- マイクやトランシーバー機能は[🟠 応用機能導入手順](/docs/microphone-setup)を参照
-
-## トラブルシューティング
-
-- **音声が分離されない**: GroupIDが正しく設定されているか確認
-- **エラーが出る**: Unity/VRChat SDKのバージョンを確認
-- **Prefabが見つからない**: パッケージが正しくインポートされているか確認
+2. 「Build & Publish for Windows」をクリック
+3. ワールド情報を入力してアップロード
