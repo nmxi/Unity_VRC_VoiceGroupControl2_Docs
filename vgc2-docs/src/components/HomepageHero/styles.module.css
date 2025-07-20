@@ -126,11 +126,11 @@
 .heroButton {
   background-color: #ea9955;
   border-color: #ea9955;
-  color: #000;
+  color: #555;
 }
 
 .heroButton:hover {
   background-color: #d88744;
   border-color: #d88744;
-  color: #000;
+  color: #555;
 }
