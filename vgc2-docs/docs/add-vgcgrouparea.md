@@ -1,10 +1,11 @@
 ---
 sidebar_position: 3
+sidebar_label: グループエリアの追加と設定
 ---
 
 import ClickableImage from '@site/src/components/ClickableImage';
 
-# VGCGroupAreaの追加と設定
+# グループエリアの追加と設定
 
 <ClickableImage src="/img/add-vgcgrouparea--hero-image.png" alt="VGCGroupAreaの概要" />
 

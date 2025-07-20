@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 sidebar_label: マイク機能の追加
 ---
 
@@ -42,6 +42,10 @@ VGC2のマイク機能を用いることで、プレイヤーの音声を拡声�
 
 2. 必要なマイクをシーン上に配置します。
 
+:::tip ヒント
+マイクは複数配置することも可能です。
+:::
+
 ## マイクの詳細設定
 
 ### マイクの入力位置の調整
@@ -53,5 +57,15 @@ Micコンポーネントのマイク入力位置、マイク最大距離を変�
 :::tip ヒント
 マイクの入力位置と距離を編集ボタンをクリックすることで、シーンWindow上で直接マイクの入力位置を編集することも可能です。
 :::
+
+## マイク位置リセットボタンの設置
+
+`Assets/mikinel/VoiceGroupControl2/Prefabs/Others/VGCRespawnObjectButton.prefab`をシーンに配置します。
+
+<ClickableImage src="/img/microphone-setup--respawn-button.png" alt="マイク位置リセットボタン" />
+
+VGCRespawnObjectコンポーネント内のTargetObjectsにボタンをInteractしたときにリセットしたいオブジェクトを追加します。
+
+<ClickableImage src="/img/microphone-setup--target-objects.png" alt="TargetObjectsの設定" />
 
 
