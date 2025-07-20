@@ -50,4 +50,8 @@ GroupAreaの配置が完了すると、以下のような状態になります�
 
 ### 5. Configuratorで音量設定
 
+シーンに配置したVoiceGroupControl2のオブジェクトを選択し、インスペクター上に表示される「VGC2 Configuratorを開く」ボタンをクリックしてください。
+
+<ClickableImage src="/img/group-volume-settings--open-configurator.png" alt="Configuratorを開く" />
+
 ### 6. ワールドのアップロード
