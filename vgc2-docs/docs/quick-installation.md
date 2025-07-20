@@ -49,3 +49,5 @@ GroupAreaの配置が完了すると、以下のような状態になります�
 <ClickableImage src="/img/add-vgcgrouparea--hero-image.png" alt="GroupAreaの配置完了" />
 
 ### 5. ワールドのアップロード
+
+アップロード前にConfiguratorでグループ間の音量設定を完了する必要があります。
