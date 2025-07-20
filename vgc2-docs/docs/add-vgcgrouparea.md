@@ -4,7 +4,7 @@ sidebar_position: 3
 
 import ClickableImage from '@site/src/components/ClickableImage';
 
-# VGCGroupAreaの追加
+# VGCGroupAreaの追加と設定
 
 <ClickableImage src="/img/add-vgcgrouparea--hero-image.png" alt="VGCGroupAreaの概要" />
 
@@ -60,3 +60,24 @@ GroupAreaに入ったときに属するGroupIDを設定します。
 
 <ClickableImage src="/img/add-vgcgrouparea--overlapping-areas.png" alt="複数のIDのGroupAreaが重なった例" />
 
+## 高度な設定
+
+### 一括でグループIDを設定する
+
+複数のVGCGroupAreaのグループIDを一括で設定することができます。
+
+1. 一括でグループIDを設定したいエリア（ゲームオブジェクト）を選択します。
+
+<ClickableImage src="/img/add-vgcgrouparea--batch-select.png" alt="複数のエリアを選択" />
+
+2. MikinelTools/VoiceGroupControl2/Auto Number GroupIDsを選択
+
+<ClickableImage src="/img/add-vgcgrouparea--auto-number-menu.png" alt="Auto Number GroupIDsメニュー" />
+
+3. Auto Number GroupIDsのウィンドウ内の開始IDを設定して、適用をクリック
+
+<ClickableImage src="/img/add-vgcgrouparea--auto-number-window.png" alt="Auto Number GroupIDsウィンドウ" />
+
+4. 一括でグループIDの設定が完了します。
+
+<ClickableImage src="/img/add-vgcgrouparea--auto-number-complete.png" alt="グループID設定完了" />

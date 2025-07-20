@@ -25,6 +25,8 @@ const sidebars: SidebarsConfig = {
         'getting-started',
         'add-prefab',
         'add-vgcgrouparea',
+        'group-volume-settings',
+        'world-upload',
       ],
     },
     {

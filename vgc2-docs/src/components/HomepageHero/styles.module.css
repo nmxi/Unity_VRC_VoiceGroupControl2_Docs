@@ -30,6 +30,9 @@
   object-fit: contain;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
   align-self: center;
+  position: absolute;
+  left: 0;
+  transform: translateX(-150%);
 }
 
 .heroTitleWrapper {
@@ -43,7 +46,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
+  width: 100%;
+  position: relative;
 }
 
 .heroTitleMain {

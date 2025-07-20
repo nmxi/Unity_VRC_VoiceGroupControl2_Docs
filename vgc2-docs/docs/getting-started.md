@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import ClickableImage from '@site/src/components/ClickableImage';
+
 # はじめに
 
 VGC2 を使い始めるための手順を説明します。
@@ -21,6 +23,12 @@ VGC2 を使い始めるための手順を説明します。
 3. 展開したunitypackage を選択
 4. インポートダイアログですべてのファイルにチェックが入っていることを確認
 5. **Import** ボタンをクリック
+
+<ClickableImage src="/img/getting-started--package-import.png" alt="UnityPackageのインポート" />
+
+もしTMP Importerのダイアログが表示された場合は、**Import TMP Essentials** を選択します。Import TMP Essentialsを選択したら、TMP Importerを閉じます。
+
+<ClickableImage src="/img/getting-started--tmp-importer.png" alt="TMP Importerダイアログ" />
 
 ## 次のステップ
 
