@@ -39,7 +39,7 @@ VGCManagerコンポーネントの「VGCGroupAreaを追加」ボタンをクリ�
 各GroupAreaに対して以下を設定します：
 
 1. **位置とサイズ**: シーンビューでギズモを使って調整
-2. **Group ID**: 1から順番に設定（重複しないように）
+2. **Group ID**: 1から順番に設定
 3. **Group Name（任意）**: RoomA、RoomBなど分かりやすい名前
 
 <ClickableImage src="/img/add-vgcgrouparea--groupid-setting.png" alt="GroupAreaの設定" />
