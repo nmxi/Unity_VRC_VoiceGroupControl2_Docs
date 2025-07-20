@@ -54,9 +54,7 @@ GroupAreaの配置が完了すると、以下のような状態になります�
 
 <ClickableImage src="/img/group-volume-settings--open-configurator.png" alt="Configuratorを開く" />
 
-Configuratorが開いたら、グループ間の音量を設定します。例：
-- 同じグループ内: 1.0（100%）
-- 異なるグループ間: 0.0（ミュート）
+Configuratorが開いたら、グループ間の音量を設定します。
 
 <ClickableImage src="/img/group-volume-settings--configurator.png" alt="VGC2 Configurator" />
 
