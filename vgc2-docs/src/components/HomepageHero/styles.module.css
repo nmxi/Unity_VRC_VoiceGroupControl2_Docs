@@ -103,6 +103,9 @@
   .heroLogo {
     height: 80px;
     width: 80px;
+    position: static;
+    transform: none;
+    margin-bottom: 0.5rem;
   }
   
   .heroTitleSub {
