@@ -26,7 +26,8 @@
       "mcp__linear-server__create_comment",
       "Bash(taskkill:*)",
       "Bash(ls:*)",
-      "mcp__puppeteer__puppeteer_click"
+      "mcp__puppeteer__puppeteer_click",
+      "WebFetch(domain:docusaurus.io)"
     ],
     "deny": []
   }
