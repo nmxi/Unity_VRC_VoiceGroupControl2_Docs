@@ -30,6 +30,3 @@ VGC2 を使い始めるための手順を説明します。
 
 <ClickableImage src="/img/getting-started--tmp-importer.png" alt="TMP Importerダイアログ" />
 
-## 次のステップ
-
-インポートが完了したら、次は[Prefabの追加](/docs/add-prefab)へ進んでください。
