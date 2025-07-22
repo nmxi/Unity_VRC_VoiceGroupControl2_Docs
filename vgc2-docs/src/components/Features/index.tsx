@@ -25,10 +25,10 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'マイク機能',
+    title: 'マイクギミック',
     backgroundImage: '/Unity_VRC_VoiceGroupControl2_Docs/img/amplification_sample.png',
     icon: (
-      <img src="/Unity_VRC_VoiceGroupControl2_Docs/img/amplification.svg" alt="マイク機能" className={styles.featureIcon} />
+      <img src="/Unity_VRC_VoiceGroupControl2_Docs/img/amplification.svg" alt="マイクギミック" className={styles.featureIcon} />
     ),
     description: (
       <>
@@ -39,10 +39,10 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'トランシーバー機能',
+    title: 'トランシーバーギミック',
     backgroundImage: '/Unity_VRC_VoiceGroupControl2_Docs/img/transceiver_sample.png',
     icon: (
-      <img src="/Unity_VRC_VoiceGroupControl2_Docs/img/transceiver.svg" alt="トランシーバー機能" className={styles.featureIcon} />
+      <img src="/Unity_VRC_VoiceGroupControl2_Docs/img/transceiver.svg" alt="トランシーバーギミック" className={styles.featureIcon} />
     ),
     description: (
       <>
