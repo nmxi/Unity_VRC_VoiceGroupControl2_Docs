@@ -27,7 +27,8 @@
       "Bash(taskkill:*)",
       "Bash(ls:*)",
       "mcp__puppeteer__puppeteer_click",
-      "WebFetch(domain:docusaurus.io)"
+      "WebFetch(domain:docusaurus.io)",
+      "Bash(curl:*)"
     ],
     "deny": []
   }
