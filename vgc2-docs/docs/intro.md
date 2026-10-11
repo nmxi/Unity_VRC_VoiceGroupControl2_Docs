@@ -21,7 +21,7 @@ Voice Group Control 2（VGC2）は、VRChatワールドで使用できる高度�
 VGC2は以下の環境で動作確認を行っています：
 
 - **Unity**: 2022.3.22f1
-- **VRChat World SDK**: 3.8.2
+- **VRChat World SDK**: 3.10.5
 
 ## このドキュメントについて
 
