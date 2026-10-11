@@ -20,7 +20,7 @@ VGC2では、Configuratorを用いてグループ間の音量を細かく制御�
 
 ### 2. Configuratorの設定と適用
 
-Configuratorはグループごとの音量設定を行うためのツールです。フェーダー編集モードとマトリクス編集モードがあります。
+Configuratorはグループごとの音量設定を行うためのツールです。通常はフェーダー編集モードになっていますが、マトリクス編集モードをチェックボックスから有効にすることで、マトリクス編集モードになります。
 
 <div style={{display: 'flex', gap: '5px', justifyContent: 'center', marginTop: '20px', marginBottom: '20px'}}>
   <div style={{flex: 1, textAlign: 'center'}}>
