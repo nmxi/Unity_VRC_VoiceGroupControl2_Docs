@@ -95,7 +95,7 @@ VGCにおいて、Defaultグループとはどこのグループエリアにも�
 3. 「マイクの拡声音声を聞く」のチェックを切り替えます。
 4. 「設定を適用」をクリックします。
 
-{/* TODO: Configuratorのマイク受信設定画面を追加。対象グループ、トグル、設定を適用ボタンを含める。 */}
+<ClickableImage src="/img/group-volume-settings--mic-receive-settings.png" alt="Configuratorのマイク受信設定" />
 
 :::info 設定の対象
 この設定は、マイクを使うプレイヤーではなく、**聞き手が所属するグループ**に適用されます。マイクごとの設定ではなく、そのグループで聞くすべてのVGCマイクに共通です。Defaultグループにも設定できます。
@@ -105,7 +105,7 @@ OFFは、そのプレイヤーの声を完全に消す設定ではありませ�
 
 「マトリクス編集モード」をチェックすると、各グループのマイク設定をON/OFFで一覧編集できます。通常表示とマトリクス表示は同じ設定値を使用します。
 
-{/* TODO: マイク受信設定のマトリクス画面を追加。ONとOFFのグループが混在する例にする。 */}
+<ClickableImage src="/img/group-volume-settings--mic-receive-matrix.png" alt="マイク受信設定のマトリクス表示" />
 
 パススルーモード中の扱いについては、[パススルーモードについて](/docs/passthrough-mode)をご覧ください。
 

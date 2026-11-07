@@ -36,6 +36,6 @@ VGC2のミキサーパネルを使用すると、各グループの送信音量�
 
 選択したグループ内のプレイヤーがマイク拡声音声を聞くかどうかを切り替えます。
 
-{/* TODO: マイク受信設定を開いたパネル画像を追加。対象グループの選択欄とトグルを含める。 */}
+<ClickableImage src="/img/mixer-panel--mic-receive-settings.png" alt="ミキサーパネルのマイク受信設定" />
 
-詳しい設定の意味は[マイク受信設定](/docs/group-volume-settings#mic-receive-settings)をご覧ください。
+機能については[マイク受信設定](/docs/group-volume-settings#mic-receive-settings)をご覧ください。

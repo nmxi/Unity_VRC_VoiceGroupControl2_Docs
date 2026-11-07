@@ -62,6 +62,6 @@ GroupAreaMixerControlPanerlコンポーネントの制御対象GroupIDを直接�
 
 対象グループ内のプレイヤーがマイク拡声音声を聞くかどうかを切り替えます。
 
-{/* TODO: マイク受信設定を開いたパネル画像を追加。 */}
+<ClickableImage src="/img/group-area-mixer-panel--mic-receive-settings.png" alt="グループエリア ミキサーパネルのマイク受信設定" />
 
-詳しい設定の意味は[マイク受信設定](/docs/group-volume-settings#mic-receive-settings)をご覧ください。
+機能については[マイク受信設定](/docs/group-volume-settings#mic-receive-settings)をご覧ください。
