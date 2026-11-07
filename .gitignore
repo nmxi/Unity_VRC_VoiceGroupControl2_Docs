@@ -1,0 +1,51 @@
+# Local AI assistant settings, instructions, and session data
+.claude/
+.codex/
+.agents/
+.cursor/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+.cursorrules
+.mcp.json
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+.npmrc
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies, generated sites, and caches (at any directory depth)
+node_modules/
+build/
+dist/
+.docusaurus/
+.cache-loader/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Local logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
