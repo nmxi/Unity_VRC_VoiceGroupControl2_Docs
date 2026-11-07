@@ -7,7 +7,9 @@ import ClickableImage from '@site/src/components/ClickableImage';
 
 # Json Loaderについて
 
-Json Loaderは、VRChat上で設定した音量設定をUnityEditorに反映させるための機能です。
+Json Loaderは、VRChat上で設定した音量設定をUnityEditorに反映させるための機能です。2.9.2では、各グループのマイク受信設定も反映されます。
+
+マイク受信設定が含まれない旧JSONも読み込めます。その場合はONとして読み込まれます。
 
 <ClickableImage src="/img/json-loader--hero.png" alt="Json Loader概要" />
 

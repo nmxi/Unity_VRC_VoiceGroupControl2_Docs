@@ -7,7 +7,7 @@ import ClickableImage from '@site/src/components/ClickableImage';
 
 # セーブ・ロードパネルの追加
 
-VGC2のセーブ・ロードパネルを使用すると、グループ間の音量設定をプリセットとして保存し、必要に応じて呼び出すことができます。
+VGC2のセーブ・ロードパネルを使用すると、グループ間の送信音量設定と、各グループのマイク受信設定をプリセットとして保存し、必要に応じて呼び出すことができます。
 
 <ClickableImage src="/img/save-load-panel--hero.png" alt="セーブ・ロードパネル概要" />
 

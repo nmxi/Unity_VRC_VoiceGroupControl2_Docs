@@ -13,6 +13,8 @@ import ClickableImage from '@site/src/components/ClickableImage';
 
 VGC2のグループエリア ミキサーパネルを使用すると、グループエリアの設定を視覚的に管理できます。
 
+{/* TODO: 概要画像をGizmos非表示の正面画像に差し替える。 */}
+
 <ClickableImage src="/img/group-area-mixer-panel--hero.png" alt="グループエリア ミキサーパネル概要" />
 
 ## グループエリア ミキサーパネルの配置
@@ -21,7 +23,7 @@ VGC2のグループエリア ミキサーパネルを使用すると、グルー
 
 <ClickableImage src="/img/transceiver-setup--prefab-location.png" alt="グループエリア ミキサーパネルプレハブの場所" />
 
-2. `VGCGroupAreaMixerPanel.prefab` を見つけます
+2. `VGCGroupAreaMixerControlPanel.prefab` を見つけます
 3. シーン上に配置し、グループエリア ミキサーパネルの設定を行います
 
 ## グループエリア ミキサーパネルの設定
@@ -48,7 +50,18 @@ GroupAreaMixerControlPanerlコンポーネントの制御対象GroupIDを直接�
 
 <ClickableImage src="/img/group-area-mixer-panel--manual-setting.png" alt="マニュアル設定" />
 
-:::tip ヒント
-VGCのミキサーは、送信グループからの音声の"送信音量"を設定することができます。フェーダーを操作することで、音声の音量の変更が可能です。
-:::
+## ワールド内での操作
 
+配置時に設定した対象グループについて、次のタブで設定します。
+
+### 送信音量設定
+
+対象グループから各グループへ送信されるプレイヤー音声の音量を、フェーダーで調整します。
+
+### マイク受信設定
+
+対象グループ内のプレイヤーがマイク拡声音声を聞くかどうかを切り替えます。
+
+{/* TODO: マイク受信設定を開いたパネル画像を追加。 */}
+
+詳しい設定の意味は[マイク受信設定](/docs/group-volume-settings#mic-receive-settings)をご覧ください。

@@ -58,6 +58,10 @@ Micコンポーネントのマイク入力位置、マイク最大距離を変�
 マイクの入力位置と距離を編集ボタンをクリックすることで、シーンWindow上で直接マイクの入力位置を編集することも可能です。
 :::
 
+## グループごとにマイクの拡声音声を聞くか設定する
+
+設定手順は[グループの音量設定：マイク受信設定](/docs/group-volume-settings#mic-receive-settings)をご覧ください。ワールド内では[ミキサーパネル](/docs/mixer-panel)や[グループエリア ミキサーパネル](/docs/group-area-mixer-panel)からも変更できます。
+
 ## マイク位置リセットボタンの設置
 
 `Assets/mikinel/VoiceGroupControl2/Prefabs/Others/VGCRespawnObjectButton.prefab`をシーンに配置します。
